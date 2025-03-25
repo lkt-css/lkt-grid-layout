@@ -17,6 +17,22 @@
         align-content: baseline;
     }
 
+    .lkt-grid-1--from-1440 > *,
+    .lkt-grid-2--from-1440 > *,
+    .lkt-grid-3--from-1440 > *,
+    .lkt-grid-4--from-1440 > *,
+    .lkt-grid-5--from-1440 > *,
+    .lkt-grid-6--from-1440 > *,
+    .lkt-grid-7--from-1440 > *,
+    .lkt-grid-8--from-1440 > *,
+    .lkt-grid-9--from-1440 > *,
+    .lkt-grid-10--from-1440 > *,
+    .lkt-grid-11--from-1440 > *,
+    .lkt-grid-12--from-1440 > * {
+        min-height: 0;
+        min-width: 0;
+    }
+
     .lkt-grid-1--from-1440 { grid-template-columns: 1fr;}
     .lkt-grid-2--from-1440 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (2 + 1) + 0.1%), 1fr)); }
     .lkt-grid-3--from-1440 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (3 + 1) + 0.1%), 1fr)); }

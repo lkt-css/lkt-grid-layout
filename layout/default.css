@@ -16,6 +16,22 @@
     align-content: baseline;
 }
 
+.lkt-grid-1 > *,
+.lkt-grid-2 > *,
+.lkt-grid-3 > *,
+.lkt-grid-4 > *,
+.lkt-grid-5 > *,
+.lkt-grid-6 > *,
+.lkt-grid-7 > *,
+.lkt-grid-8 > *,
+.lkt-grid-9 > *,
+.lkt-grid-10 > *,
+.lkt-grid-11 > *,
+.lkt-grid-12 > * {
+    min-height: 0;
+    min-width: 0;
+}
+
 
 .lkt-grid-1 {
     grid-template-columns: 1fr;
