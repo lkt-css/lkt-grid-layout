@@ -55,4 +55,19 @@
     .lkt-grid-column-2-4--to-640 { grid-column: 2 / 4; }
     .lkt-grid-column-3-4--to-640 { grid-column: 3 / 4; }
     .lkt-grid-column-4-4--to-640 { grid-column: 4 / 4; }
+
+
+    .lkt-grid-column-start-1--to-640 {grid-column-start: 1;}
+    .lkt-grid-column-start-2--to-640 {grid-column-start: 2;}
+    .lkt-grid-column-start-3--to-640 {grid-column-start: 3;}
+    .lkt-grid-column-start-4--to-640 {grid-column-start: 4;}
+    .lkt-grid-column-start-5--to-640 {grid-column-start: 5;}
+    .lkt-grid-column-start-6--to-640 {grid-column-start: 6;}
+
+    .lkt-grid-column-end-1--to-640 {grid-column-end: 1;}
+    .lkt-grid-column-end-2--to-640 {grid-column-end: 2;}
+    .lkt-grid-column-end-3--to-640 {grid-column-end: 3;}
+    .lkt-grid-column-end-4--to-640 {grid-column-end: 4;}
+    .lkt-grid-column-end-5--to-640 {grid-column-end: 5;}
+    .lkt-grid-column-end-6--to-640 {grid-column-end: 6;}
 }

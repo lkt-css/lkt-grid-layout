@@ -90,3 +90,18 @@
 .lkt-grid-column-2-4 { grid-column: 2 / 4; }
 .lkt-grid-column-3-4 { grid-column: 3 / 4; }
 .lkt-grid-column-4-4 { grid-column: 4 / 4; }
+
+
+.lkt-grid-column-start-1 {grid-column-start: 1;}
+.lkt-grid-column-start-2 {grid-column-start: 2;}
+.lkt-grid-column-start-3 {grid-column-start: 3;}
+.lkt-grid-column-start-4 {grid-column-start: 4;}
+.lkt-grid-column-start-5 {grid-column-start: 5;}
+.lkt-grid-column-start-6 {grid-column-start: 6;}
+
+.lkt-grid-column-end-1 {grid-column-end: 1;}
+.lkt-grid-column-end-2 {grid-column-end: 2;}
+.lkt-grid-column-end-3 {grid-column-end: 3;}
+.lkt-grid-column-end-4 {grid-column-end: 4;}
+.lkt-grid-column-end-5 {grid-column-end: 5;}
+.lkt-grid-column-end-6 {grid-column-end: 6;}
