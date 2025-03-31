@@ -5,3 +5,8 @@
 
 .lkt-justify-content-stretch {justify-content: stretch}
 .lkt-justify-content-center {justify-content: center}
+.lkt-justify-content-space-between {justify-content: space-between}
+.lkt-justify-content-space-around {justify-content: space-around}
+.lkt-justify-content-space-evenly {justify-content: space-evenly}
+.lkt-justify-content-start {justify-content: flex-start}
+.lkt-justify-content-end {justify-content: flex-end}

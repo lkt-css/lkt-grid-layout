@@ -1,9 +1,10 @@
 {
   "name": "lkt-grid-layout",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "files": [
-    "layout/*"
+    "layout/*",
+    "modifiers/*"
   ],
   "sideEffects": false,
   "author": "Antonio Ibáñez"

@@ -12,7 +12,7 @@
 .lkt-grid-12 {
     display: grid;
     width: 100%;
-    gap: var(--lkt-grid--gap);
+    gap: var(--lkt-grid-gap);
     align-content: baseline;
 }
 
@@ -31,6 +31,56 @@
     min-height: 0;
     min-width: 0;
 }
+
+
+.lkt-grid-1 {
+    grid-template-columns: 1fr;
+}
+
+.lkt-grid-2 {
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100% / (2 + 1) + 0.1%, (640px - 100vw) * 1000, 100% / (1 + 1) + 0.1%), 1fr));
+}
+
+.lkt-grid-3 {
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100% / (3 + 1) + 0.1%, (640px - 100vw) * 1000, 100% / (1 + 1) + 0.1%), 1fr));
+}
+
+.lkt-grid-4 {
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100% / (4 + 1) + 0.1%, (640px - 100vw) * 1000, 100% / (1 + 1) + 0.1%), 1fr));
+}
+
+.lkt-grid-5 {
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100% / (5 + 1) + 0.1%, (640px - 100vw) * 1000, 100% / (1 + 1) + 0.1%), 1fr));
+}
+
+.lkt-grid-6 {
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100% / (6 + 1) + 0.1%, (640px - 100vw) * 1000, 100% / (1 + 1) + 0.1%), 1fr));
+}
+
+.lkt-grid-7 {
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100% / (7 + 1) + 0.1%, (640px - 100vw) * 1000, 100% / (1 + 1) + 0.1%), 1fr));
+}
+
+.lkt-grid-8 {
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100% / (8 + 1) + 0.1%, (640px - 100vw) * 1000, 100% / (1 + 1) + 0.1%), 1fr));
+}
+
+.lkt-grid-9 {
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100% / (9 + 1) + 0.1%, (640px - 100vw) * 1000, 100% / (1 + 1) + 0.1%), 1fr));
+}
+
+.lkt-grid-10 {
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100% / (10 + 1) + 0.1%, (640px - 100vw) * 1000, 100% / (1 + 1) + 0.1%), 1fr));
+}
+
+.lkt-grid-11 {
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100% / (11 + 1) + 0.1%, (640px - 100vw) * 1000, 100% / (1 + 1) + 0.1%), 1fr));
+}
+
+.lkt-grid-12 {
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100% / (12 + 1) + 0.1%, (640px - 100vw) * 1000, 100% / (1 + 1) + 0.1%), 1fr));
+}
+
 
 .lkt-grid-1 { grid-template-columns: 1fr;}
 .lkt-grid-2 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (2 + 1) + 0.1%), 1fr)); }
