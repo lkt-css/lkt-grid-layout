@@ -13,7 +13,7 @@
     .lkt-grid-12--from-480 {
         display: grid;
         width: 100%;
-        gap: var(--lkt-grid-gap);
+        gap: var(--lkt-grid--gap);
         align-content: baseline;
     }
 
