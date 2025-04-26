@@ -34,17 +34,17 @@
     }
 
     .lkt-grid-1--from-1700 { grid-template-columns: 1fr;}
-    .lkt-grid-2--from-1700 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (2 + 1) + 0.1%), 1fr)); }
-    .lkt-grid-3--from-1700 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (3 + 1) + 0.1%), 1fr)); }
-    .lkt-grid-4--from-1700 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (4 + 1) + 0.1%), 1fr)); }
-    .lkt-grid-5--from-1700 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (5 + 1) + 0.1%), 1fr)); }
-    .lkt-grid-6--from-1700 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (6 + 1) + 0.1%), 1fr)); }
-    .lkt-grid-7--from-1700 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (7 + 1) + 0.1%), 1fr)); }
-    .lkt-grid-8--from-1700 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (8 + 1) + 0.1%), 1fr)); }
-    .lkt-grid-9--from-1700 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (9 + 1) + 0.1%), 1fr)); }
-    .lkt-grid-10--from-1700 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (10 + 1) + 0.1%), 1fr)); }
-    .lkt-grid-11--from-1700 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (11 + 1) + 0.1%), 1fr)); }
-    .lkt-grid-12--from-1700 { grid-template-columns: repeat(auto-fit, minmax(calc(100% / (12 + 1) + 0.1%), 1fr)); }
+    .lkt-grid-2--from-1700 { grid-template-columns: 1fr 1fr; }
+    .lkt-grid-3--from-1700 { grid-template-columns: 1fr 1fr 1fr; }
+    .lkt-grid-4--from-1700 { grid-template-columns: 1fr 1fr 1fr 1fr; }
+    .lkt-grid-5--from-1700 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+    .lkt-grid-6--from-1700 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; }
+    .lkt-grid-7--from-1700 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
+    .lkt-grid-8--from-1700 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
+    .lkt-grid-9--from-1700 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
+    .lkt-grid-10--from-1700 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
+    .lkt-grid-11--from-1700 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
+    .lkt-grid-12--from-1700 { grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; }
 
     .lkt-grid-column-1-2--from-1700 { grid-column: 1 / 2; }
     .lkt-grid-column-2-2--from-1700 { grid-column: 2 / 2; }
