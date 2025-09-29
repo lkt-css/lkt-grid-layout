@@ -10,3 +10,7 @@
 .lkt-justify-content-space-evenly {justify-content: space-evenly}
 .lkt-justify-content-start {justify-content: flex-start}
 .lkt-justify-content-end {justify-content: flex-end}
+
+.lkt-justify-items-center {justify-items: center;}
+.lkt-justify-items-end {justify-items: end;}
+.lkt-justify-items-start {justify-items: start;}
